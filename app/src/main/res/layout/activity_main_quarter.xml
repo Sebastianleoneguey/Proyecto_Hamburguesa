@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    tools:context=".MainQuarter">
+
+    <com.google.android.material.appbar.CollapsingToolbarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorCabecera"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/nosotrosMenu"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:background="@color/colorCabecera"
+                android:textColor="@color/colorLetraBoton"
+                android:text="@string/volver" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginLeft="80dp"
+                android:textColor="@color/colorLetraBoton"
+                android:text="@string/cabeceraMenu"
+                android:gravity="center"
+                android:textSize="20dp">
+            </TextView>
+        </RelativeLayout>
+
+    </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/hamburguesa"
+            android:layout_marginTop="100dp"
+            tools:ignore="MissingConstraints" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:foregroundGravity="center_vertical">
+
+        <TextView
+            android:id="@+id/textSobreNosotros"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="420dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="120dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textAlignment="textEnd"
+            android:text="@string/sobreNosotrosMenu">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="460dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textAlignment="textStart"
+            android:text="@string/sobreNosotrosMenu">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="600dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="180dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textAlignment="textEnd"
+            android:text="@string/sobreNosotrosMenu">
+        </TextView>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+
+
+

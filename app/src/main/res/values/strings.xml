@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Proyecto_Hamburguesa</string>
+    <string name="title_activity_main_secondary">MainSecondary</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="sandwichMenu">Hamburguesas</string>
+    <string name="sobreNosotrosMenu">El Chini LU, es una empresa familiar, donde nos ecargamos de
+        la venta de Hamburguesas a un precio conveniente para el bolsillo de la gente, tenemos ya 5 años de
+        funcionamiento, estamos ubicados en Tirua, Calle Mariqueo.
+    </string>
+    <string name="nosotrosBoton">Sobre nostros</string>
+    <string name="cabeceraMenu">El Chino LU</string>
+    <string name="hamburguesa1">Sandwiches</string>
+    <string name="hamburguesa2">Sandwiches</string>
+    <string name="hamburguesa3">Sandwiches</string>
+    <string name="hamburguesa4">Sandwiches</string>
+    <string name="hamburguesa5">Sandwiches</string>
+    <string name="hamburguesa6">Sandwiches</string>
+
+
+    <string name="precio1">2000</string>
+    <string name="precio2">2300</string>
+    <string name="precio3">2600</string>
+    <string name="precio4">2900</string>
+    <string name="precio5">3100</string>
+    <string name="precio6">3400</string>
+
+    <string name="nombre1">Hamburguesa Queso Tomate</string>
+    <string name="nombre2">Hamburguesa Palta Queso</string>
+    <string name="nombre3">Hamburguesa Lechuga Queso</string>
+    <string name="nombre4">Hamburguesa Palta Lechuga</string>
+    <string name="nombre5">Hamburguesa Cebolla Carne frita</string>
+    <string name="nombre6">Docle Hamburguesa</string>
+
+
+    <string name="detalle1">Hamburguesa de Queso con tomate Lechuga y Cebollas</string>
+    <string name="detalle2">Hamburguesa de Queso con Palta, Carne Frita y Cebolla</string>
+    <string name="detalle3">Hamburguesa Tomate Queso y Lechuga</string>
+    <string name="detalle4">Hamburgues Palta Tomate Cesina y Queso</string>
+    <string name="detalle5">Hamburgues Tomate Queso Lechuga Carne frita</string>
+    <string name="detalle6">Hamburguesa Docle Carne Queso Tomate y Lechuga</string>
+
+
+    <string name="volver">Volver</string>
+
+
+
+
+    <string name="title_activity_main_third">MainThird</string>
+    <string name="title_activity_main_quarter">MainQuarter</string>
+
+</resources>
